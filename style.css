@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+header {
+    width:100%;
+    padding:50px;
+    margin:0px;
+    background-image: url('/Imagenes/FondoEncabezado.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:100%;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orange;
+    font-size: 100px;
+    font-style: italic;
+}
+
+
+.conocenos {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 50px;
+    background-image: url('/Imagenes/FondoProductos.jpg');
+    font-size:40px;
+    background-size: 30%;
+    
+}
+
+.accordion {
+    background-image: url('/Imagenes/FondoBody.jpg');
+    background-size:100%;
+    background-attachment: fixed;
+    width: 100%;
+    padding:50px;
+}
+
+
+footer {
+    background-image: url('/Imagenes/FondoEncabezado.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titlefooter {
+    text-align: center;
+    color:brown;
+}
+
+.redes {
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.quitarestilos {
+    list-style: none;
+}
+
+.imagenredes {
+    position: relative;
+    right:40px;
+    top:23px;
+}
+
+.video  {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
